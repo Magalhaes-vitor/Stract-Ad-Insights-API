@@ -91,12 +91,12 @@ Retorna todos os anúncios de uma plataforma específica em formato CSV.
 
 **Parâmetros:**
 
-- `platform`: Nome da plataforma (ex: `facebook`, `google`).
+- `platform`: Nome da plataforma (ex: `meta_ads`, `ga4`).
 
 **Exemplo de Uso:**
 
 ```bash
-curl -o ads.csv http://127.0.0.1:5000/facebook
+curl -o ads.csv http://127.0.0.1:5000/ga4
 ```
 
 ---
@@ -107,7 +107,7 @@ Retorna um resumo dos anúncios de uma plataforma específica em formato CSV.
 
 **Parâmetros:**
 
-- `platform`: Nome da plataforma (ex: `facebook`, `google`).
+- `platform`: Nome da plataforma (ex: `meta_ads`, `ga4`).
 
 **Exemplo de Uso:**
 
